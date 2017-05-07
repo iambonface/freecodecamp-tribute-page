@@ -11,7 +11,6 @@
 html, body{
 	height: 100%;
 }
-
 .wrapper{
 	padding: 0;
 }
@@ -38,6 +37,10 @@ html, body{
 .navbar-default .navbar-header .navbar-brand{
 	color: #00F3CB;
 	font-weight: 400;
+	transition: color 2s;
+}
+.navbar-default .navbar-header .navbar-brand:hover{
+	color: orange;
 }
 
 .year-link{
@@ -75,4 +78,25 @@ html, body{
 	width: 50%;
 	transform: translateX(100%) rotate(-70deg);
 	transform-origin: 0 50%;
+}
+
+/* styling the section */
+.main-section{
+	height: 100%;
+}
+section{
+	min-height: 100%;
+}
+
+.first{
+	background-color: red;
+}
+.second{
+	background-color: blue;
+}
+.third{
+	background-color: black;
+}
+.fourth{
+	background-color: green;
 }
