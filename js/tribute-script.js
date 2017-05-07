@@ -4,7 +4,7 @@ $(function (){
 	$(document).ready(function (){
 
 		$(window).scroll(function (){
-			if($(window).scrollTop() < 400){
+			if($(window).scrollTop() < 1){
 				$('#nav').show();
 				$('#yearLink').css('margin-top', '70px');
 
