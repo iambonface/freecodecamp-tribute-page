@@ -8,8 +8,6 @@ $(function (){
 				$('#nav').show();
 				$('#yearLink').css('margin-top', '70px');
 
-
-
 			}
 		});
 
