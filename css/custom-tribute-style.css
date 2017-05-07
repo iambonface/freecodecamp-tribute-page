@@ -14,9 +14,13 @@ html, body{
 .wrapper{
 	padding: 0;
 }
+
 .navbar-default{
 	background-color: black;
 	height: 70px;
+	margin: 0;
+	border: none;
+	border-radius: 0;
 }
 .navbar-header{
 	padding: 5px;
@@ -28,7 +32,19 @@ html, body{
 	width: 100%;
 	font-size: 4em;
 	font-family: 'Sofia', sans-serif;
+	left: 0;
 }
 .navbar-default .navbar-header .navbar-brand{
 	color: #00F3CB;
+	font-weight: 400;
+}
+
+.year-link{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	background-color: red;
+}
+.year-link .container .row a{
 }
