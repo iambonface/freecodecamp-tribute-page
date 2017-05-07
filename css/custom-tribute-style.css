@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.wrapper{
+	padding: 0;
+}
+.navbar-default{
+	background-color: black;
+	height: 70px;
+}
+.navbar-header{
+	padding: 5px;
+}
+
+.navbar-brand{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	font-size: 4em;
+	font-family: 'Sofia', sans-serif;
+}
+.navbar-default .navbar-header .navbar-brand{
+	color: #00F3CB;
+}
