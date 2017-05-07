@@ -44,13 +44,14 @@ html, body{
 }
 
 .year-link{
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	text-align: center;
 	left: 0;
 	background-color: black;
 	padding: 5px;
 	border-top: 1px solid #333;
+	margin-top: 70px;
 }
 .year-link a{
 	margin-right: 10px;
@@ -81,22 +82,9 @@ html, body{
 }
 
 /* styling the section */
-.main-section{
+.main{
 	height: 100%;
 }
 section{
 	min-height: 100%;
-}
-
-.first{
-	background-color: red;
-}
-.second{
-	background-color: blue;
-}
-.third{
-	background-color: black;
-}
-.fourth{
-	background-color: green;
 }

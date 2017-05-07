@@ -21,23 +21,21 @@
     <![endif]-->
 </head>
 <body>
-	<div id="containerFluid" class="container-fluid wrapper">
-
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#mainSection">tribute</a>
+				<a class="navbar-brand" href="#home">tribute</a>
 			</div><!--/.navabr-header-->
 		</nav><!--/.navbar-default-->
 
 		<div class="year-link">
 			<div class="container">
 				<div class="row">
-					<a href="#">1960</a>
-					<a href="#">1999</a>
-					<a href="#">1997</a>
-					<a href="#">2000</a>
-					<a href="#">2008</a>
-					<a href="#">2008</a>
+					<a href="#sectionFirst">1960</a>
+					<a href="#sectionSecond">1999</a>
+					<a href="#sectionThird">1997</a>
+					<a href="#sectionFourth">2000</a>
+					<a href="#sectionFifth">2008</a>
+					<a href="#sectionSixth">2008</a>
 					<a href="#">2008</a>
 					<a href="#">2008</a>
 					<a href="#">2008</a>
@@ -48,26 +46,32 @@
 			</div>
 		</div><!-- memoir year links/.container-fluid-->
 
-		<div class="section-container">
-			<section class="main-section">
-				
-			</section>			
+		<div class="main">
+			<section id="home"></section>			
 		</div>
 
-		<div class="section-container">
-			<section class="first">
+		<div class="main">
+			<section id="sectionFirst" class="first" style="background-color: blue;">
 				
 			</section>
 		</div>
 
-		<div class="section-container">
-			<section class="second">
+
+		<div class="main">
+			<section id="sectionSecond" class="second" style="background-color: green">
 				
 			</section>
 		</div>
 
-		<div class="section-container">
-			<section class="third">
+		<div class="main">
+			<section id="sectionThird" class="third" style="background-color: yellow">
+				
+			</section>
+		</div>
+
+
+		<div class="main">
+			<section id="sectionFourth" class="fourth" style="background-color: brown">
 				
 			</section>
 		</div><!-- last div for /.section-container-->
@@ -75,15 +79,11 @@
 
 		
 
-
-
-
-	</div><!--main /.container-fluid-->
-
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="./js/tribute-script.js"></script>
 
 </body>
 </html>
