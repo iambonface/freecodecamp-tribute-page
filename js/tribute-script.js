@@ -17,8 +17,6 @@ $(function (){
 			}
 		});
 
-
-
 		$("a").click(function(event){
 
 			if(this.hash !== ""){
@@ -33,10 +31,7 @@ $(function (){
 				});
 				$('#nav').hide();
 				$('#yearLink').css('margin-top', '0');
-
 			}
-
-
 
 		});
 
