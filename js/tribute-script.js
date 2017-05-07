@@ -1,3 +1,9 @@
+/**
+ * @file JQuery Script for Tribute Page; A freeCodeCamp Project
+ * @author Bonface Mudiri 
+ * Email: tastywebapps@gmail.com
+ * Web: https://www.linkedin.com/in/bonface/
+ */
 
 $(function (){
 
