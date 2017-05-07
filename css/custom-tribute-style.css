@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia');
 @import url('https://fonts.googleapis.com/css?family=Krona+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 *{
 	margin: 0;
@@ -44,7 +45,34 @@ html, body{
 	width: 100%;
 	text-align: center;
 	left: 0;
-	background-color: red;
+	background-color: black;
+	padding: 5px;
+	border-top: 1px solid #333;
 }
-.year-link .container .row a{
+.year-link a{
+	margin-right: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	color: #00F3CB;
+	position: relative;
+	transition: color 2s;
+	-webkit-transition: color 2s /* For Safari 3.0 > x < 6.0 */;
+	letter-spacing: 1px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+}
+
+.year-link a:hover{
+	color: orange;
+}
+
+.year-link a:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: -1px;
+	border-bottom: 1px solid #fff;
+	width: 50%;
+	transform: translateX(100%) rotate(-70deg);
+	transform-origin: 0 50%;
 }
