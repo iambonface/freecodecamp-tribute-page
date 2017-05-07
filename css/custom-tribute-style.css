@@ -42,6 +42,10 @@ html, body{
 .navbar-default .navbar-header .navbar-brand:hover{
 	color: orange;
 }
+.fa-home{
+	color: red;
+	font-size: 20px;
+}
 
 .year-link{
 	position: fixed;
@@ -86,5 +90,10 @@ html, body{
 	height: 100%;
 }
 section{
+	min-height: 100%;
+}
+
+/* styling footer */
+footer{
 	min-height: 100%;
 }
