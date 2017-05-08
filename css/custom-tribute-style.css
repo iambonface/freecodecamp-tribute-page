@@ -10,13 +10,23 @@ webpage: https://www.linkedin.com/in/bonface/
 @import url('https://fonts.googleapis.com/css?family=Krona+One');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 *{
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+
+}
 
 html, body{
+	height: 100%;
+}
+.section-div{
 	height: 100%;
 }
 .wrapper{
@@ -30,7 +40,6 @@ html, body{
 	border: none;
 	border-radius: 0;
 	transition: all 2s ease;
-
 }
 .navbar-header{
 	padding: 5px;
@@ -67,6 +76,8 @@ html, body{
 	border-top: 1px solid #333;
 	margin-top: 70px;
 	transition: all .7s ease;
+	z-index: 120;
+
 }
 .year-link a{
 	margin-right: 10px;
@@ -81,9 +92,11 @@ html, body{
 	font-size: 18px;
 }
 
+
 .year-link a:hover{
 	color: orange;
 }
+
 
 .year-link a:after{
 	content: '';
@@ -96,12 +109,10 @@ html, body{
 	transform-origin: 0 50%;
 }
 .year-link a.start{
-	color: green;
-	font-weight: bold;
+	color: orange;
 }
 .year-link a.finish{
-	color: red;
-	font-weight: bold;
+	color: orange;
 }
 
 /* styling the section */
@@ -109,10 +120,116 @@ html, body{
 	height: 100%;
 }
 section{
-	min-height: 100%;
+	height: 100%;
+	width: 100%;
+}
+.main-section .main-background-img{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	transition: all .3s ease;
+	background-color:#021b39; 	
+	filter: alpha(opacity=50);
+	opacity: 0.50;
 }
 
+.main-section .main-background-img{
+	background-image: url("http://2.bp.blogspot.com/-Hm1LDSmSwQg/UDVeBJqVJVI/AAAAAAAAANs/uLHtR7FuPGk/s1600/shikuku.jpg");
+	filter: sepia(0);
+	filter: alpha(opacity=50);
+	opacity: 0.50;
+}
+
+.main-section .main-background-img:hover {
+  -webkit-animation: animate 6s infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-filter: sepia(0) saturate(1);
+  }
+  50% {
+    -webkit-filter: sepia(1) saturate(2);
+  }
+  
+  100% {
+    -webkit-filter: sepia(0) saturate(1);
+  }
+
+}
+
+.section-div .main-section .main-content{
+	bottom: 0;
+	background-color: rgb(0,0,0);
+	position: absolute;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: 'Krona One', sans-serif;
+	z-index: 100;
+	color: #00F3CB;
+	text-align: center;
+
+}
+.main-section{
+	background-color: black;
+}
+
+#fname{
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+#lname{
+  font-size: 50px;
+  font-weight: 700;
+}
+#nickname{
+	color: #00F3CB;
+}
 /* styling footer */
 footer{
 	min-height: 100%;
 }
+
+/* inside div */
+.section-div .first-container {
+	padding: 90px 2px; 
+	height: auto
+}
+.section-div .first-container .year, .left, .right{
+	border: 1px solid red;
+	margin: 0px;	
+}
+#year1{
+	text-align: center;
+	font-size: 35px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+		@media screen and (max-width: 480px){
+			#fname{
+				font-size: 40px;
+				font-weight: 700;
+				margin-bottom: 0;
+				line-height: 18px;
+			}
+			#lname{
+				font-size: 30px;
+				font-weight: 700;
+			}
+			#nickname{
+				font-size: 10px;
+			}
+			.section-div .main-section .main-content{
+				margin: 0;
+			}
+
+		}
