@@ -17,3 +17,14 @@
 ## Demo
 <a href="http://iambonface.github.io/tribute-page">Click here to view the tribute page </a>
 
+## Credits
+Background audio provided by <a href="http://www.dievantile.com">Di Evantile</a>, a brilliant composer
+    
+Additional Information(content) courtesy of <a href="http://www.abeingo.com/"> by Mr. Shad Bulimo</a>
+
+## Appreciations
+Special thanks to <a href="http://www.andela.com/">Andela</a>
+ for making me stand up in code!! 
+
+
+
