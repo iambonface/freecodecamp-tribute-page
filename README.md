@@ -1,7 +1,9 @@
 
 ## A freeCodeCamp Tribute Page Challenge
 
-    This is a static webpage and my first freeCodeCamp project for Front End Development! 
+    This is a static webpage and my first freeCodeCamp project for Front End Development!
+    This website is a tribute [ 5th anniversary ] for the Late Hon Martin Shikuku. 
+    He was a long serving politician and independence hero. He was the youngest member of the Kenyan delegation that flew to Lancaster House in London to negotiate for our independence. 
 
 ## Prerequisites
 	Bootstrap
