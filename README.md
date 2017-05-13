@@ -3,7 +3,8 @@
 
     This is a static webpage and my first freeCodeCamp project for Front End Development!
     This website is a tribute [ 5th anniversary ] for the Late Hon Martin Shikuku. 
-    He was a long serving politician and independence hero. He was the youngest member of the Kenyan delegation that flew to Lancaster House in London to negotiate for our independence. 
+    He was a long serving politician and independence hero 
+    At 28 years, he accompanied the Kenyan delegation to Lancaster House to negotiate for our independence. 
 
 ## Prerequisites
 	Bootstrap
