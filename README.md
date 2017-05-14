@@ -25,9 +25,7 @@ Background audio provided by <a href="http://www.dievantile.com">Di Evantile</a>
     
 Additional Information(content) courtesy of <a href="http://www.abeingo.com/">Mr. Shad Bulimo</a>
 
-## Appreciations
-Special thanks to <a href="http://www.andela.com/">Andela</a>
- for making me stand up in code!! 
+
 
 
 
